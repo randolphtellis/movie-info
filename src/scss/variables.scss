@@ -1,0 +1,27 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+*/
+$--color-primary: #008bce;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+/**
+ * Media queries
+ */
+/*==========  Breakpoints  ==========*/
+  $break_xs: 480px !default;
+  $break_sm: 768px !default;
+
+  /* Small Devices, Tablets (less than or equal to 768px) */
+  /* Also known as (sm) */
+    $tablet: "only screen and (max-width: #{$break_sm})" !default;
+
+  /* Extra Small Devices, Phones (less than or equal to 480px) */
+  /* Also known as (xs) */
+    $mobile: "only screen and (max-width: #{$break_xs})" !default;
+
+$container: 1100px !default;
